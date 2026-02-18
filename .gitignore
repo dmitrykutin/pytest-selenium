@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+.env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Test and coverage results
+htmlcov/
+.coverage
+.cache/
+pytest_cache/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python egg
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Misc
+*.swp
+*.bak
+*.tmp
+
+# Selenium/WebDriver logs
+*.webdriver.log
+
+# Ignore local server artifacts
+app/static/*.tmp
+
+# Ignore notebooks
+*.ipynb
+
+# Ignore personal files
+OneDrive/
+
+# Ignore Windows specific files
+*.ps1
+
+# Ignore macOS/Linux setup scripts
+*.sh
